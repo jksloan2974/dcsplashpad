@@ -1,0 +1,22 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+sites/add/themes/geneparmesan/*.scsscX
+.DS_Store
+node_modules
+sites/all/themes/geneparmesan/.sass-cache
+.idea/.name
+.idea/connect.iml
+.idea/deployment.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/scopes/scope_settings.xml
+
+sites/all/modules/custom/wf_chrome_extension/build/tmp
+sites/all/modules/custom/wf_chrome_extension/build/node_modules/
