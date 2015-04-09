@@ -7,6 +7,7 @@ stylesheets[all][] = css/responsive.css
 scripts[] = js/retina.js
 scripts[] = js/plugins.js
 scripts[] = js/global.js
+scripts[] = js/modernizr.min.js
 scripts[] = js/jquery_gridrotator/jquery.gridrotator.js
 regions[sidebar_first]  = First Sidebar
 regions[header]         = Header
