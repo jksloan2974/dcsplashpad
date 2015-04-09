@@ -4,6 +4,7 @@ core = 7.x
 engine = phptemplate
 stylesheets[all][] = style.css
 stylesheets[all][] = css/responsive.css
+stylesheets[all][] = js/jquery_gridrotator/style.css
 scripts[] = js/modernizr.custom.26633.js
 scripts[] = js/retina.js
 scripts[] = js/plugins.js
