@@ -2,6 +2,13 @@ jQuery( function($) {
 	
 	$(document).ready(function(){
 		
+	
+  
+    $(".show-items").click(function(){
+			$('html, body').animate({scrollTop:$("#block-views-auction-items-block-1").position().top - 50 }, 'slow');
+    });
+
+		
 		// Main menu superfish
 		$('#main-menu > ul').superfish({
 			delay: 200,
