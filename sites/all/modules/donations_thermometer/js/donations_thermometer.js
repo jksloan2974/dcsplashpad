@@ -15,7 +15,7 @@
         },
 
         resetValue : function() {
-          if (document.getElementById("campaign-progress-current"))) {
+          if (document.getElementById("campaign-progress-current")) {
             return false;
           }
           this.progressMeter = document.getElementById("campaign-progress-current");
